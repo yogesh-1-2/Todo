@@ -1,0 +1,29 @@
+body{
+	background-color: whitesmoke;
+}
+.Todo-list{
+	background-color: white;
+	align-items: center;
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	border: 2px solid #efefef ;
+	width: 20%;
+	box-shadow: 
+			0 1px 1px rgba(0,0,0,0.15),
+			0 10px 0 -5px #eee,
+			0 10px 1px -4px rgba(0,0,0,0.15),
+			0 20px 0 -10px #eee,
+			0 20px 1px,-9px rgba(0,0,0,0.15);
+		padding: 30px;
+}
+.list-item{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 30px 20px 0;
+	width: 70%;
+	border-bottom: 1px solid #cecece;
+	font-family: Roboto;
+	font-weight: 100;
+}
